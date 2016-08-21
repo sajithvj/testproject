@@ -1,0 +1,69 @@
+.Header{
+	background-color:#7695FE;
+	border: thin #336699 solid;
+	padding:10px;
+	margin:10px;
+	text-align:center;
+	border-radius: 5px;
+}
+.Header h1{
+	margin:0px;
+	color:white;
+	font-size:xx-large;
+}
+.Header .Teaser{
+	margin:0px;
+	font-weight:bold;
+}
+.Header .ByLine{
+	font-style:italic;
+	font-size:small;
+	margin:0px;
+}
+.Content{
+	background-color:white;
+}
+.Content fieldset{
+	border-radius: 5px;
+}
+.Content label{
+	width:150px;
+	padding: 2px;
+	float:left;
+	margin-bottom: 10px;
+}
+.Content input{
+	width:150px;
+	padding:2px;
+	float: left;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	
+}
+.Content textarea{
+	width:150px;
+	padding:2px;
+	float: left;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	
+}
+input:FOCUS{
+	background: #eaeaea;
+}
+input:required{
+	background-color:lightyellow;
+}
+.Footer{
+	position:fixed;
+	bottom:0px;
+	height:20px;
+	width:100%;
+	background:#ECD672;
+	border-top:thin solid black;
+	font-size:small;	
+}
+.CloseButton{
+	float:right;
+	padding-right: 10px;
+}
